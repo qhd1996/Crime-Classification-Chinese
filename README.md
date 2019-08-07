@@ -23,7 +23,7 @@ run model_name_test.py
 ```
 And you will get predictions. 
 ## Evaluation
-After you get predictions, you can run **code/evaluation/evaluation.py(https://github.com/qhd1996/Crime-Classification-Chinese/blob/master/code/evaluation/evaluation.py)** to get formated evaluation report.
+After you get predictions, you can run **[code/evaluation/evaluation.py](https://github.com/qhd1996/Crime-Classification-Chinese/blob/master/code/evaluation/evaluation.py)** to get formated evaluation report.
 We use accuracy, precision, recall, f1-score, support,micro avg, macro avg, weighted avg to evaluate these models. The evaluation file will be saved in  folder **/data/output/**.  
 Roughly, BOW < GRU < CNN < Attention.  
 ## Dependencies
